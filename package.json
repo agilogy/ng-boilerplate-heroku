@@ -2,7 +2,7 @@
   "author": "Agilogy",
   "name": "angular-grunt-heroku",
   "version": "0.0.1",
-  "homepage": "http://angular-grunt.herokuapp.com",
+  "homepage": "https://github.com/agilogy/angular-grunt-heroku",
   "licenses": {
     "type": "MIT",
     "url": "https://raw.github.com/agilogy/angular-grunt-heroku/master/LICENSE"
