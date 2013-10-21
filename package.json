@@ -1,20 +1,24 @@
 {
-  "author": "Josh David Miller",
-  "name": "ng-boilerplate",
-  "version": "0.3.1",
-  "homepage": "http://bit.ly/ng-boilerplate",
+  "author": "Agilogy",
+  "name": "angular-grunt-heroku",
+  "version": "0.0.1",
+  "homepage": "http://angular-grunt.herokuapp.com",
   "licenses": {
     "type": "MIT",
-    "url": "https://raw.github.com/joshdmiller/ng-boilerplate/master/LICENSE"
+    "url": "https://raw.github.com/agilogy/angular-grunt-heroku/master/LICENSE"
   },
-  "bugs": "https://github.com/joshdmiller/ng-boilerplate/issues",
   "repository": {
     "type": "git",
-    "url": "git@github.com:joshdmiller/ng-boilerplate.git"
+    "url": "git@github.com:agilogy/angular-grunt-heroku.git"
   },
-  "dependencies": {},
-  "devDependencies": {
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  },
+  "dependencies": {
+    "express": "3.1.x",
     "grunt": "~0.4.1",
+    "grunt-cli": "*",
     "grunt-recess": "~0.3.0",
     "grunt-contrib-clean": "~0.4.1",
     "grunt-contrib-copy": "~0.4.1",
@@ -22,12 +26,17 @@
     "grunt-contrib-concat": "~0.3.0",
     "grunt-contrib-watch": "~0.4.0",
     "grunt-contrib-uglify": "~0.2.0",
-    "grunt-karma": "~0.5.0",
     "grunt-ngmin": "0.0.2",
     "grunt-html2js": "~0.1.3",
-    "grunt-contrib-coffee": "~0.7.0",
-    "grunt-coffeelint": "0.0.6",
     "grunt-conventional-changelog": "~0.1.1",
     "grunt-bump": "0.0.6"
+    },
+  "devDependencies": {
+    "grunt-karma": "~0.5.0",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-coffeelint": "0.0.6"
+  },
+  "scripts": {
+    "postinstall": "./node_modules/bower/bin/bower install; ./node_modules/grunt-cli/bin/grunt heroku"
   }
 }
