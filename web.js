@@ -2,7 +2,7 @@ var express = require("express");
 var app = express();
 app.use(express.logger());
 
-app.get('/', express.static('bin/'));
+app.use('/', express.static('bin/'));
 
 var port = process.env.PORT || 5000;
 app.listen(port, function() {
