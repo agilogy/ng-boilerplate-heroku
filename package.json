@@ -1,15 +1,15 @@
 {
   "author": "Agilogy",
-  "name": "angular-grunt-heroku",
+  "name": "ng-boilerplate-heroku",
   "version": "0.0.1",
-  "homepage": "https://github.com/agilogy/angular-grunt-heroku",
+  "homepage": "https://github.com/agilogy/ng-boilerplate-heroku",
   "licenses": {
     "type": "MIT",
-    "url": "https://raw.github.com/agilogy/angular-grunt-heroku/master/LICENSE"
+    "url": "https://raw.github.com/agilogy/ng-boilerplate-heroku/master/LICENSE"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:agilogy/angular-grunt-heroku.git"
+    "url": "git@github.com:agilogy/ng-boilerplate-heroku.git"
   },
   "engines": {
     "node": "0.10.x",
